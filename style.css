@@ -1,0 +1,125 @@
+.brand-section{
+    background-color: #ffffff23;
+    position: relative;
+}
+
+.brand-one img{
+    border: 1px solid#8080802a;
+     padding: 30px;
+}
+
+.brand-two img{
+    border: 1px solid#8080802a;
+    padding: 30px;
+}
+.brand-one img:hover{
+   background: #f6f9fc;
+   color: black;
+}
+.brand-two img:hover{
+    background: #f6f9fc;
+    color: black;
+    transition: .3s;
+ }
+ .section-text h1::after{
+    content: "";
+    height: 3px;
+    width: 52px;
+    background: blue;
+    position: absolute;
+    top: 73%;
+    left: 10%;
+    margin-top:-7px;
+ }
+ .section-text .h1::after{
+   content: "";
+   height: 3px;
+   width: 53px;
+   background: blue;
+   position: absolute;
+   top: 63%;
+   left: 49%;
+   margin-top: -7px;
+}
+ .section-text h1{
+    font-weight: bold;
+ }
+ .section-text .h1{
+   font-weight: bold;
+}
+ .section-text p{
+    line-height: 28px;}
+p{
+   color: #9c95a6;
+   font-size: 18px;
+}
+.blog-item img{
+   height: auto;
+   width: 415px;
+   border-radius: 5px;
+}
+.blog-item{
+   position: relative;
+}
+.author-img img{
+   width: 30px;
+   border-radius: 50%;
+}
+.author-img{
+   position: absolute;
+   top: 43%;
+   left: 41%;
+   background: blue;
+   padding: 8px 15px;
+   border-radius: 40px;
+}
+.author-img h6{
+   margin-top: 4px;
+   margin-left: 15px;
+   word-spacing: 5px;
+   color: #f6f9fc;
+}
+/* .footer..logo.. */
+.footer-section{
+   background: #081828;
+}
+.f-logo img{
+  width: 160px;
+}
+a{
+   text-decoration: none;
+}
+.footer-menu ul{}
+.footer-menu ul li{
+   list-style: none;
+   color: #f6f9fc;
+   padding-top: 15px;
+}
+.footer-menu ul li a{
+
+}
+.footer-menu{
+   position: relative;
+}
+.footer-menu h4::after{
+   content: "";
+   height: 29px;
+   width: 3px;
+   background: blue;
+   position: absolute;
+   top: 1%;
+   left: 11%;
+}
+.footer-icon{
+   margin-top: 40px;
+   padding-left: 10px;
+   padding-bottom: 15px;
+}
+.footer-icon a{
+   color: #fff;
+}
+.bodar{
+
+   padding: 50px 0px;
+   border-bottom: 1px solid #35424f;
+}
